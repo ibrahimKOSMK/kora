@@ -4,7 +4,7 @@ function Footer() {
   return (
 
 <footer
-  class="flex flex-col items-center  text-center text-surface bg-niga text-white ">
+  class="flex flex-col items-center gap-1 text-center text-surface bg-back  text-white ">
     
    
   <div class="container pt- ">
@@ -12,7 +12,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="rounded-full bg-transparent p-3 font-medium uppercase leading-normal transition duration-150 ease-in-out  focus:outline-none focus:ring-0 text-white hover:bg-teal"
+        class="rounded-full bg-transparent p-3 font-medium uppercase leading-normal transition duration-150 ease-in-out  focus:outline-none focus:ring-0  hover:text-purple"
         data-twe-ripple-init>
         <span class="[&>svg]:h-5 [&>svg]:w-5">
           <svg
@@ -28,7 +28,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="rounded-full p-3 font-medium uppercase leading-normal transition duration-150 ease-in-out hover:bg-teal focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
+        class="rounded-full p-3 font-medium uppercase leading-normal transition duration-150 ease-in-out hover:text-purple focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
         data-twe-ripple-init>
         <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
           <svg
@@ -46,7 +46,7 @@ function Footer() {
       <a
         href="#!"
         type="button"
-        class="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-teal focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
+        class="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:text-purple focus:outline-none focus:ring-0  dark:hover:bg-secondary-900"
         data-twe-ripple-init>
         <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
           <svg
@@ -64,9 +64,9 @@ function Footer() {
     </div>
   </div>
 
-  <div class="w-full bg-niga px-4 pb-2  text-center">
+  <div class="w-full bg-back px-4 pb-2  text-center">
     © 2024 جميع الحقوق محفوظة : 
-    <a href="https://tw-elements.com/"> بلاي ليست  </a>
+    <a href="https://www.sportawy.com/"> سبورتاوي   </a>
   </div>
 </footer>
   )

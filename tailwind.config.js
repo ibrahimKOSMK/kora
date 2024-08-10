@@ -6,15 +6,18 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'po' : '300px',
+    'tap': "470px",
+    'md': "820px",
+    'lap': '1000px',
+    'pc': '1200px',
 
-  
-
+    },
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+
     },
     
     colors:{
@@ -27,6 +30,8 @@ module.exports = {
       xteal : '#b2d8d8',
       gray : '#f3f4f6',
       gae : "#BDBDBD",
+      purple : "#9b51e0",
+      back : "#100f18",
     },
     
     extend: {
